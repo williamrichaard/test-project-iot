@@ -29,12 +29,6 @@ Instale as dependecias:
 npm install
 ```
 
-Execute o teste da aplicação:
-
-```
-npm run cy:open
-```
-
 ## Como rodar os testes
 
 Executar o teste da aplicação:
