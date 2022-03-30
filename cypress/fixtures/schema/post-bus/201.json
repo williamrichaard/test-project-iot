@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
+    "required": [
+        "id",
+        "name",
+        "busNumber",
+        "route"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "name": {
+            "type": "string"
+        },
+        "busNumber": {
+            "type": "integer"
+        },
+        "route": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": true
+}

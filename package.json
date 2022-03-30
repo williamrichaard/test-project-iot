@@ -25,8 +25,11 @@
     "nonGlobalStepDefinitions": false,
     "step_definitions": "cypress/integration/step_definitions/",
     "cucumberJson": {
-      "generate": false,
+      "generate": true,
       "outputFolder": "cypress/report/cucumber-json"
     }
+  },
+  "dependencies": {
+    "multiple-cucumber-html-reporter": "^1.19.0"
   }
 }
