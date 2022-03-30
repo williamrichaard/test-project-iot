@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
+    "required": [
+        "id",
+        "bus_id",
+        "busStop_id",
+        "timeCheck"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "bus_id": {
+            "type": "integer"
+        },
+        "busStop_id": {
+            "type": "integer"
+        },
+        "timeCheck": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": true
+}

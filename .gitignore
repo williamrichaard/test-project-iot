@@ -1,0 +1,6 @@
+node_modules
+cypress/videos/
+report/json/*
+report/html/*
+report/screenshots/*
+.DS_Store
