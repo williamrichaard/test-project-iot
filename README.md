@@ -66,7 +66,7 @@ npm run cy:clear
 - [cypress-cucumber-preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)
 - [multiple-cucumber-html-reporter](https://www.npmjs.com/package/multiple-cucumber-html-reporter)
 
-## Desenvolvedores/Contribuidores :octocat:
+## Desenvolvedores/Contribuidores
 
 | [<img src="https://avatars.githubusercontent.com/u/55960615?v=4" width=115><br><sub>William Richard</sub>](https://github.com/williamrichaard)
 | :---: |
