@@ -3,8 +3,8 @@
 import {When, Then} from 'cypress-cucumber-preprocessor/steps'
 import {Bus} from '../../services/bus.service'
 
-When(`enviar posicao do onibus de /check`, () => {
-	Bus.post_check().then(post_response => {
+When(`enviar posicao do onibus por {string}`, (check_type) => {
+	Bus.post_check(check_type).then(post_response => {
         cy.wrap(post_response).as('Response')
     })
 });
