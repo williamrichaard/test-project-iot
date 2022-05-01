@@ -1,5 +1,5 @@
 {
-    "baseUrl": "http://localhost:8080",
+    "baseUrl": "https://bus-iot.herokuapp.com",
     "env": {
         "global_timeout": 30000,
         "environment": "API"
