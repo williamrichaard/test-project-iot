@@ -3,8 +3,9 @@
 import {When, Then} from 'cypress-cucumber-preprocessor/steps'
 import {Bus} from '../../services/bus.service'
 
-When(`criar onibus na rota /bus`, () => {
-	Bus.criar_bus().then(post_response => {
+
+When(`criar onibus por {string}`, (bus_type) => {
+	Bus.criar_bus(bus_type).then(post_response => {
         cy.wrap(post_response).as('Response')
     })
 });
