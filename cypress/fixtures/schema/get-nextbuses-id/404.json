@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "required": [
+        "1",
+        "2",
+        "3",
+        "4"
+    ],
+    "properties": {
+        "1": {
+            "type": ["null", "integer"]
+        },
+        "2": {
+            "type": ["null", "integer"]
+        },
+        "3": {
+            "type": ["null", "integer"]
+        },
+        "4": {
+            "type": ["null", "integer"]
+        }
+    }
+}
