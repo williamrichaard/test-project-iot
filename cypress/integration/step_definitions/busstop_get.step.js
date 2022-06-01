@@ -3,8 +3,9 @@
 import {When, Then} from 'cypress-cucumber-preprocessor/steps'
 import {Bus} from '../../services/bus.service'
 
-When(`buscar proximas parada do onibus pelo id`, () => {
-	Bus.buscar_parada_id().then(post_response => {
+
+When(`listar todas as paradas de onibus pela rota /busstop`, () => {
+	Bus.listar_paradas().then(post_response => {
         cy.wrap(post_response).as('Response')
     })
 });

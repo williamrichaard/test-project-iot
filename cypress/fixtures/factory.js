@@ -1,5 +1,5 @@
 import pure from 'pure-gen'
-pure.setLocale('pt_BR');
+//pure.setLocale('pt_BR');
 
 export class Factory {
 

@@ -1,0 +1,36 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "required": [
+            "id",
+            "name",
+            "latitude",
+            "longitude",
+            "direction"
+        ],
+        "properties": {
+            "id": {
+                "type": "integer"
+            },
+            "name": {
+                "type": "string"
+            },
+            "latitude": {
+                "type": [
+                    "number",
+                    "integer"
+                ]
+            },
+            "longitude": {
+                "type": [
+                    "number",
+                    "integer"
+                ]
+            },
+            "direction": {
+                "type": "string"
+            }
+        }
+    }
+}

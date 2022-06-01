@@ -12,13 +12,13 @@
             "type": "integer"
         },
         "name": {
-            "type": "string"
+            "type": ["string", "null"]
         },
         "busNumber": {
             "type": "integer"
         },
         "route": {
-            "type": "string"
+            "type": ["string", "null"]
         }
     },
     "additionalProperties": true

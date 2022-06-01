@@ -1,0 +1,26 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "required": [
+            "id",
+            "name",
+            "busNumber",
+            "route"
+        ],
+        "properties": {
+            "id": {
+                "type": "integer"
+            },
+            "name": {
+                "type": ["string", "null"]
+            },
+            "busNumber": {
+                "type": "integer"
+            },
+            "route": {
+                "type": ["string", "null"]
+            }
+        }
+    }
+}

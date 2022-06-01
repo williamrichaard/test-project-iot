@@ -1,12 +1,5 @@
 {
     "type": "object",
-    "required": [
-        "1"
-    ],
-    "properties": {
-        "1": {
-            "type": ["null", "integer"]
-        }
-    },
-    "additionalProperties": true
+    "required": [],
+    "properties": {}
 }
